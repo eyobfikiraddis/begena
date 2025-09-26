@@ -10,24 +10,24 @@
 
 <body>
 
-  <h1 id="title">My BEGENA</h1>
+  <h1 id="title">My በገና</h1>
   
   <div class="set">
-    <button class="G drum">G</button>
-    <button class="A drum">A</button>
-    <button class="D drum">D</button>
-    <button class="C drum">C</button>
-    <button class="F drum">F</button>
+    <button class="G string">G</button>
+    <button class="A string">A</button>
+    <button class="D string">D</button>
+    <button class="C string">C</button>
+    <button class="F string">F</button>
   </div>
 
-  <!-- Dropdown selector -->
   <div class="page-selector">
-    <label for="pageSelect">Choose a page:</label>
     <select id="pageSelect">
-      <option value="">-- Select --</option>
-      <option value="page1.html">Page 1</option>
-      <option value="page2.html">Page 2</option>
-      <option value="page3.html">Page 3</option>
+      <option value="">ቅኝት</option>
+      <option value="selamta.html">ሰላምታ</option>
+      <option value="wanen.html">ዋኔን</option>
+      <option value="chern.html">ስለ ቸርነትህ</option>
+      <option value="ambasel.html">አምባሰል</option>
+      <option value="bati.html">ባቲ</option>
     </select>
   </div>
 
@@ -37,15 +37,6 @@
 
   <script src="index.js" charset="utf-8"></script>
 
-  <script>
-    // JavaScript to redirect when an option is selected
-    document.getElementById("pageSelect").addEventListener("change", function() {
-      const selectedPage = this.value;
-      if (selectedPage) {
-        window.location.href = selectedPage;
-      }
-    });
-  </script>
 </body>
 
 </html>

@@ -64,4 +64,12 @@ function buttonAnimation(currentKey) {
     }, 100);
 }
 
+
+document.getElementById("pageSelect").addEventListener("change", function() {
+  const selectedPage = this.value;
+  if (selectedPage) {
+    window.location.href = selectedPage;
+  }
+});
+  
  

@@ -16,8 +16,34 @@ footer {
   font-family: sans-serif;
 }
 
+
 .set {
   margin: 10% auto;
+}
+
+/* Dropdown menu styling */
+select#pageSelect {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  border: 2px solid #404B69;
+  background-color: #DBEDF3;
+  color: #283149;
+  font-family: 'Arvo', cursive;
+  margin: 20px auto;
+  box-shadow: 0 2px 6px rgba(64,75,105,0.2);
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+select#pageSelect:focus {
+  border-color: #DA0463;
+}
+
+select#pageSelect option {
+  background: #DBEDF3;
+  color: #283149;
+  font-family: 'Arvo', cursive;
 }
 
 .game-over {
@@ -34,7 +60,7 @@ footer {
   color: red;
 }
 
-.drum {
+.string {
   outline: none;
   border: 10px solid #404B69;
   font-size: 5rem;
