@@ -23,7 +23,8 @@ function whenclicked(key){
     else {
     var w = new Audio("sounds/" + key + ".m4a");
     w.play();
-}}
+    }
+}
 function buttonAnimation(currentKey) {
     var activeButton = document.querySelector("." + currentKey);
     activeButton.classList.add("pressed");
